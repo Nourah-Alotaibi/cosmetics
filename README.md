@@ -28,7 +28,7 @@ This catalog contains 931 products. Ratings are missing for 63.48% and currency 
 
 ## Data
 
-Supply local output.csv.zip containing output.csv, or the extracted CSV. Required columns: brand, name, category, product_type, currency, price, rating. Source rights have not been independently confirmed, so raw data is excluded.
+Use the existing `output.csv` in this repository, or a ZIP containing that CSV. Required columns: brand, name, category, product_type, currency, price, rating. The existing dataset is retained alongside its original notebook; its original licensing has not been independently confirmed.
 
 ## Reproduce
 
