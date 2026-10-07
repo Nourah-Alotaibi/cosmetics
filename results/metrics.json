@@ -1,0 +1,32 @@
+{
+  "dataset": "Local output.csv.zip cosmetics catalog",
+  "input_sha256": "7e97065bb6b139b9ac23af88441fb8c1cba68e320aeec2f6a0d7ebaa573bba5e",
+  "source_rows": 931,
+  "clean_rows": 931,
+  "exact_duplicates_removed": 0,
+  "invalid_prices": 0,
+  "invalid_ratings": 0,
+  "missing_rating_fraction": 0.6348012889366272,
+  "missing_currency_fraction": 0.6047261009667024,
+  "zero_price_rows": 40,
+  "top_brand": "nyx",
+  "top_brand_products": 164,
+  "top_product_type": "foundation",
+  "price_rating_currency": "USD",
+  "price_rating_n": 0,
+  "price_rating_pearson_r": null,
+  "limitations": [
+    "Catalog coverage is not sales or market share.",
+    "Prices are summarized within currency; no unsupported currency conversion.",
+    "Missing/zero prices and missing ratings limit value comparisons.",
+    "Correlation does not establish a price effect on ratings."
+  ],
+  "environment": {
+    "python": "3.12.2",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "sklearn": "1.9.1",
+    "scipy": "1.18.1",
+    "seed": 42
+  }
+}
